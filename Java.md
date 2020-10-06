@@ -75,3 +75,28 @@ Les mots-clés ou mots réservés sont les mots d'une langue utilisés pour un p
 exemple: Booleans ne peuvent répondre que par false ou true  
 
 boolean int CanHoldDecimals = false;  
+
+------------------------------------------
+------------------------------------------
+
+# Les paramètres #
+
+Les parametres sont des variables que l'on peut passer dans une fonction ce qui permet de lui envoyer différente valeurs.
+
+Les parametres peuvent avoir ou :
+	- un nombre fixe
+	- un nombre variable
+
+Le type des parametres est défini à l'avance lors de la déclaration de la fonction.
+
+	EX :
+
+		int foo (int x, int y) {
+		  return x + y;
+		}
+
+	  void foo (String[] args) {
+		  System.out.println(args[0]);
+			System.out.println(args[1]);
+			System.out.println(args[n]);
+		}
